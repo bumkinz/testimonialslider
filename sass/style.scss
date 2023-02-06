@@ -29,11 +29,10 @@ img {
   border-width: 5px;
   border-image-source: linear-gradient(to left, #FF9800, #182860);
   .mySlides {
-
-
-
-
-    min-height: 370px;
+    min-height: 490px;
+    @media (min-width: 768px) {
+      min-height: 370px;
+    }
     display: none;
     padding: 30px 10px;
     @media (min-width: 768px) {

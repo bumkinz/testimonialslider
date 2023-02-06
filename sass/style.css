@@ -33,9 +33,15 @@ img {
 }
 
 .slideshow-container .mySlides {
-  min-height: 370px;
+  min-height: 490px;
   display: none;
   padding: 30px 10px;
+}
+
+@media (min-width: 768px) {
+  .slideshow-container .mySlides {
+    min-height: 370px;
+  }
 }
 
 @media (min-width: 768px) {
