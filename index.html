@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- font ends here -->
+  <title>Testimonial Slider using HTML, CSS & JavaScript</title>
+  <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+<div class="slideshow-container">
+  <div class="mySlides fade bg1">
+    <div class="numbertext">1 / 3</div>
+    <blockquote class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptates sit consequuntur quasi eum veniam aspernatur modi quisquam autem illo sapiente reprehenderit, earum enim nam vitae minima commodi dolore praesentium?</blockquote>
+    <img src="./img/photo-3.jpg">
+    <p class="designation">CEO, Bengol Telcom powder</p>
+  </div> <!-- .mySlides -->
+
+  <div class="mySlides fade bg2">
+    <div class="numbertext">2 / 3</div>
+    <blockquote class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptates sit consequuntur quasi eum veniam aspernatur modi quisquam autem illo sapiente reprehenderit, earum enim nam vitae minima commodi dolore praesentium?</blockquote>
+    <img src="./img/photo-4.jpg">
+    <p class="designation">CEO, Indian Telcom powder</p>
+  </div> <!-- .mySlides -->
+
+  <div class="mySlides fade bg3">
+    <div class="numbertext">3 / 3</div>
+    <blockquote class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptates sit consequuntur quasi eum veniam aspernatur modi quisquam autem illo sapiente reprehenderit, earum enim nam vitae minima commodi dolore praesentium?</blockquote>
+    <img src="./img/photo-5.jpg">
+    <p class="designation">CEO, Pakistani Telcom powder</p>
+  </div> <!-- .mySlides -->
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div> <!-- .slideshow-container -->
+<br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+  <div class="guideline">
+    <h1>Fully mobile responsive testimonial slider</h1>
+    <p>Made with HTML, CSS & JavaScript. To learn how you can put in place this testimonial slider on your own project, see the <a href="#">step-by-step guideline »</a></p>
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
