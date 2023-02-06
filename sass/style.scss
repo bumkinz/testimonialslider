@@ -29,6 +29,11 @@ img {
   border-width: 5px;
   border-image-source: linear-gradient(to left, #FF9800, #182860);
   .mySlides {
+
+
+
+
+    min-height: 370px;
     display: none;
     padding: 30px 10px;
     @media (min-width: 768px) {
@@ -41,6 +46,7 @@ img {
       text-align: center;
     }
     .text {
+      text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
       text-align: center;
       color: #FFFFFF;
       font-size: 18px;
@@ -59,16 +65,28 @@ img {
     .designation {text-align: center; font-size: 14px; color: #000000;}
   }
   .bg1 {
-    background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    background: #42378f;
+    background-image: url("../img/pen.png"); /* fallback */
+    background-image: url("../img/pen.png"), linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
   }
   .bg2 {
-    background-color: #045de9;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    background: #045de9;
+    background-image: url("../img/pen-2.png"); /* fallback */
+    background-image: url("../img/pen-2.png"), linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
   }
   .bg3 {
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background: #7f53ac;
+    background-image: url("../img/pen-3.png"); /* fallback */
+    background-image: url("../img/pen-3.png"), linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
   }
   /* Next & previous buttons */
   .prev, .next {
